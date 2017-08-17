@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LZDigger", "LZDigger.csproj", "{1C877EB4-777D-D5D7-E0E6-D762ED0FFE90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LZDigger.Plugins", "LZDigger.Plugins.csproj", "{F77B3401-5F74-B34C-BC32-424F05A4202E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LZDigger.Editor.Plugins", "LZDigger.Editor.Plugins.csproj", "{955AEF5F-7C59-9B19-3749-27B95E91288B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C877EB4-777D-D5D7-E0E6-D762ED0FFE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C877EB4-777D-D5D7-E0E6-D762ED0FFE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C877EB4-777D-D5D7-E0E6-D762ED0FFE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C877EB4-777D-D5D7-E0E6-D762ED0FFE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77B3401-5F74-B34C-BC32-424F05A4202E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77B3401-5F74-B34C-BC32-424F05A4202E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77B3401-5F74-B34C-BC32-424F05A4202E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77B3401-5F74-B34C-BC32-424F05A4202E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{955AEF5F-7C59-9B19-3749-27B95E91288B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955AEF5F-7C59-9B19-3749-27B95E91288B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955AEF5F-7C59-9B19-3749-27B95E91288B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955AEF5F-7C59-9B19-3749-27B95E91288B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
