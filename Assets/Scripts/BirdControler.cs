@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class BirdControler : MonoBehaviour
 {
@@ -13,5 +14,13 @@ public class BirdControler : MonoBehaviour
             _readyForDeletion = true;
         else if (_readyForDeletion)
             Destroy(gameObject);
+        StartCoroutine(Destroy());
+    }
+
+    IEnumerator Destroy()
+    {
+        yield return new WaitForSeconds(20);
+
+        Destroy(gameObject);
     }
 }

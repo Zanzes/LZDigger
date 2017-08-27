@@ -6,9 +6,7 @@ public class WorldControler : MonoBehaviour
     public int WorldWidth = 60;
     public int WorldHeight = 60;
     public GameObject[] Materials;
-
-    readonly Random _random = new Random();
-
+    
     void Start()
     {
         var xOffset = WorldWidth / 2;

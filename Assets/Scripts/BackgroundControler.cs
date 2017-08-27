@@ -19,10 +19,10 @@ public class BackgroundControler : MonoBehaviour
 
     IEnumerator BirdSpawner()
     {
-        yield return new WaitForSeconds(2);
 
-        var birdPosition = new Vector3(World.MainCamera.OrthographicBounds().max.x + 2, World.MainCamera.transform.position.y);
+        var birdPosition = new Vector3(World.MainCamera.OrthographicBounds().max.x + 2, World.MainCamera.transform.position.y + World.RandomF.Next(0,15));
         Instantiate(Bird, birdPosition, Quaternion.identity);
+        yield return new WaitForSeconds(5);
         StartCoroutine(BirdSpawner());
     }
 

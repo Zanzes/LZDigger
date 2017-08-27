@@ -5,6 +5,7 @@ using Random = System.Random;
 public static class World
 {
     static readonly Random IntRandom = new Random();
+    static readonly Random FloatRandom = new Random();
     static Camera _mainCamera = Object.FindObjectsOfType<Camera>().Single(x => x.GetComponent<CameraControler>().IsMainCamera);
 
     public static Random Random
@@ -12,6 +13,13 @@ public static class World
         get
         {
             return IntRandom;
+        }
+    }
+    public static Random RandomF
+    {
+        get
+        {
+            return FloatRandom;
         }
     }
     public static Camera MainCamera
